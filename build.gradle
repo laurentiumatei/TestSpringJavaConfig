@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+group = 'com.pluralsight'
+version = '0.0.1-SNAPSHOT'
+
+repositories {        
+	mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework:spring-context:4.3.11.RELEASE'
+}
